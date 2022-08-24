@@ -1,0 +1,258 @@
+@charset "utf-8";
+
+@font-face{
+    font-family: "bold";
+    src: url(../css/fonts/CamphorProForXiaoMi-Bold.otf) format("opentype");
+}
+@font-face{
+    font-family: "medium";
+    src: url(../css/fonts/CamphorProForXiaoMi-Medium.otf) format("opentype");
+}
+@font-face{
+    font-family: "regular";
+    src: url(../css/fonts/CamphorProForXiaoMi-Medium.otf) format("opentype");
+}
+@font-face{
+    font-family: "light";
+    src: url(../css/fonts/CamphorProForXiaoMi-Light.otf) format("opentype");
+}
+
+
+*{
+    margin: 0 ;
+	padding: 0;
+} 
+.container {
+    margin: 0 auto;
+    max-width: 720px;
+    background-color: #F8F8F8;
+}
+
+
+/*video*/
+.video{
+    width: 720px; 
+    height: 440px;
+    justify-content: center;
+    position:relative
+}
+
+
+/*Nombre*/
+.titulo{
+    text-align: center;
+    margin: 15px 190px 5px 190px;
+    width: 250px;
+}
+.copy{
+    margin: 5px 0px 25px;
+    border: 0px;
+    text-align: center;
+    font-family: "regular";
+    font-size: 25px;
+}
+
+
+/*indice*/
+.main-indice{
+    width: 635px;
+    height: 720px;
+    box-sizing: border-box;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    display: block;
+}
+.indice-img{
+    position: absolute;
+    width: 635px;
+}
+.texto-bateria{
+    position: absolute;
+    color: aliceblue;
+    padding: 30px 0px 0px 35px;
+    font-family: "light";
+}
+.texto-pantalla {
+    position: absolute;
+    padding: 225px 0px 0px 35px;
+    font-family: "light";
+}
+.texto-camera {
+    position: absolute;
+    padding: 225px 0px 0px 300px;
+    font-family: "light";
+}
+.texto-altavoz{
+    position: absolute;
+    color: aliceblue;
+    padding: 415px 0px 0px 300px;
+    font-family: "light";
+}
+
+
+/*5G*/
+.cinco{
+    position: relative;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    display: block;
+    background-color: #ffffff;
+    padding: 0px 125px 0px 80px;
+}
+.cinco-g{
+    width: 600px;
+}
+
+
+/*Colores y almacenamiento*/
+.colores{
+    width: 720px;
+    height: 849px;
+    position: relative;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    display: block;
+}
+.img-colores{
+    width: 720px;
+    padding-top: 40px;
+    position: absolute;
+}
+.text-colores{
+    margin-top: 60px;
+    text-align: center;
+    font-family: "medium";
+}
+.colores h1{
+    font-family: "medium";
+}
+.colores h3{
+    font-family: "regular";
+}
+.text{
+    text-align: center;
+    font-family: "Medium";
+    font-size: 18px;
+    margin-top: 15px;
+}
+.blue{
+    color: #00b0cd;
+}
+.black{
+    color: #383a3e;
+}
+.yellow{
+    color: #fccc00;
+}
+.almacenamiento{
+    font-size: 16px;
+    padding: 545px 0px 0px 57px;
+    position: relative;
+    text-align: center;
+    line-height : 22px;
+}
+.almacenamiento b{
+    font-size: 18px;
+    font-family: "medium";
+}
+
+
+/*Camara specs*/
+.camara{
+    margin: 0px;
+    height: 380px;
+}
+.img-camara{
+    width: 720px;
+    height: 380px;
+}
+
+
+/*Fotos y camara*/
+.principal{
+    width: 720px;
+    height: 1342px;
+}
+.principal b{
+    font-family: "medium";
+}
+.principal h2{
+    font-family:"light";
+    text-justify: center;
+}
+.foto-1{
+    width: 720px;
+    height: 337px;
+    display: block;
+    position: absolute;
+}
+.text-foto-1{
+    position: relative;
+    text-align: right;
+    margin: 0px;
+    padding: 139px 50px 139px 0px;
+}
+.foto-2{
+    width: 720px;
+    height: 337px;
+    display: block;
+    position: absolute;
+}
+.text-foto-2{
+    position: relative;
+    margin: 0px;
+    padding: 139px 0px 139px 50px;
+}
+.foto-3{
+    width: 720px;
+    height: 337px;
+    display: block;
+    position: absolute;
+}
+.text-foto-3{
+    position: relative;
+    text-align: right;
+    margin: 0px;
+    padding: 139px 50px 139px 0px;
+}
+.foto-4{
+    width: 720px;
+    height: 337px;
+    display: block;
+    position: absolute;
+}
+.text-foto-4{
+    position: relative;
+    margin: 0px;
+    padding: 139px 0px 1139px 50px;
+}
+
+
+/*Procesador*/
+.mediatek{
+    background-color: #0f0f11;
+    width: 720px;
+    height: 630px;
+}
+.mediatek-png{
+    width: 720px;
+    height: 600px;
+}
+
+
+/*notas producto*/
+.notas{
+    background-color: #f4f6f6;
+}
+.notas-text{
+    padding: 30px 30px 30px 30px;
+    font-family: "light";
+    font-size: 14px;
+
+}
